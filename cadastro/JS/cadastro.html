@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        
+        * {
+            margin: 2px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+        
+
+        form {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: monospace;
+            font-size: 35px;
+        }
+
+        ::placeholder {
+            color: black;
+        }
+
+        .box {
+            margin: 0 auto;
+            width: 400px;
+            border: 5px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            border-radius: 20px;
+            margin-top: 120px;
+            background-color: rgba(240, 255, 255, 0.527);
+        }
+
+        body {
+            
+        background-image: url(../IMG/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .save{
+            height: 25px;
+            width: 60px;
+            border-radius: 9px;
+        }
+        .rest{
+            height: 25px;
+            width: 60px;
+            border-radius: 9px;
+        }
+    </style>
+</head>
+<div class="container">
+    <div class="box">
+        <h1>CADASTRO</h1>
+        <form action="#">
+            <div class="form1">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+            </div>
+            <div class="form1">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="form1">
+                <input type="text" name="chek" id="chek" placeholder="Confirmar E-mail">
+            </div>
+            <div class="form1">
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+            </div>
+            <div class="form1">
+                <input type="password" name="cheksenha" id="cheksenha" placeholder="Confirme a senha">
+            </div>
+            <div class="form1">
+                <input type="tel" name="tele" id="tele" placeholder="Telefone">
+            </div>
+            <div>
+                <input type="text" name="adress" id="adress" placeholder="Endereço completo">
+            </div>
+            <input class="save" type="submit" value="Salvar" id="salvar" placeholder="Salvar">
+            <input class="rest" type="reset" value="Limpar" id="limpar" placeholder="Limpar">
+        </form>
+            <p><a href="http://127.0.0.1:5501/login/index.html">Login</a></p>
+    </div>
+</div>
+    
+<body>
+
+</body>
+
+</html>

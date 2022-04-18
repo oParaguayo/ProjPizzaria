@@ -1,0 +1,95 @@
+
+body{
+    background-image: url(../IMG/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 255, 255, 0.527);
+    height: 600px;
+    width: 900px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.titulo{
+    margin-left: 330px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid rgb(204, 136, 11);
+    margin-top: 10px;
+    margin-right: 300px;
+}
+img{
+    margin-left: 430px;
+    margin-top: 15px;
+    width: 9%;
+}
+#sb{
+    margin-left: 390px;
+    margin-right: 360px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid rgb(204, 136, 11);
+}
+.sabores{
+    margin-left: 210px;
+    margin-right: 190px;
+    border: 1px solid rgb(204, 136, 11);
+    text-align: center;
+}
+#oc{
+    margin-left: 370px;
+    margin-right: 330px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid rgb(204, 136, 11);
+}
+#tabela{
+    margin-left: 370px;
+    background-color: rgb(255, 171, 14);
+    text-align: center;
+    border-collapse: collapse;
+}
+input{
+    width: 50px;
+    background-color: rgb(255, 171, 14);
+    border: none
+}
+.btnpedido{
+    margin-left: 250px;
+    margin-top: 20px;
+    
+}
+.gerarpedido{
+    width: 140px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px black;
+    
+}
+#estorno{
+    width: 140px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px black;
+}
+#btnplanilha{
+    width: 140px;
+    height: 30px;
+    border-radius: 9px;
+    border: 1px black;
+    background-color: rgb(255, 171, 14);
+    
+}
+    
+
+
+    
+
+
+
